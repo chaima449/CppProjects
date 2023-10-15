@@ -16,3 +16,12 @@ x : C'est la variable qui prend la valeur de chaque élément de la séquence s 
 
 s : C'est la séquence que vous souhaitez parcourir. Cela peut être un tableau, un conteneur (comme un vecteur, une liste, un ensemble, etc.), ou toute autre structure de données qui prend en charge l'itération
 
+## if (x.second != 0)
+
+est une structure conditionnelle en C++ qui vérifie si la valeur associée à la variable x (supposant que x soit une paire clé-valeur d'une structure de données, comme un std::unordered_map ou un std::map) est différente de zéro. Plus précisément :
+
+x : Il s'agit généralement d'une paire clé-valeur extraite d'une structure de données associative (comme une std::unordered_map ou une std::map). La première partie de la paire (x.first) est généralement la clé, et la deuxième partie (x.second) est la valeur associée.
+
+x.second : Cela fait référence à la deuxième partie de la paire x, c'est-à-dire la valeur associée à la clé.
+
+
