@@ -6,3 +6,13 @@ En d'autres termes, cette ligne de code crée une structure de données qui peut
 
 Le choix d'utiliser unordered_map (qui est une variante de std::map dans le langage C++) est souvent fait en fonction de la performance. Les éléments dans un unordered_map ne sont pas stockés dans un ordre particulier, mais ils permettent des recherches rapides. Cela les rend adaptés à de nombreuses tâches de comptage, de suivi des occurrences, et de gestion de données associatives en général.
 
+## for (auto x : s)
+
+est une boucle "for each" (boucle pour chaque élément) en C++ qui permet de parcourir les éléments d'une séquence ou d'une structure de données, telle qu'un conteneur ou un tableau, de manière itérative. Cette boucle est souvent utilisée lorsque vous souhaitez parcourir tous les éléments d'une collection (comme un tableau ou un conteneur) sans avoir besoin d'accéder aux indices individuels.
+
+auto : Le mot-clé auto est utilisé pour déduire automatiquement le type de données de chaque élément de la séquence s. Cela signifie que vous n'avez pas besoin de spécifier explicitement le type de x, il sera déduit automatiquement en fonction du type d'éléments dans s.
+
+x : C'est la variable qui prend la valeur de chaque élément de la séquence s à chaque itération de la boucle.
+
+s : C'est la séquence que vous souhaitez parcourir. Cela peut être un tableau, un conteneur (comme un vecteur, une liste, un ensemble, etc.), ou toute autre structure de données qui prend en charge l'itération
+
