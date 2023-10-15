@@ -1,4 +1,4 @@
-unordered_map<char, int> count;
+## unordered_map<char, int> count;
 
 est une déclaration en C++ qui crée une instance de la classe unordered_map (qui est une structure de données de type dictionnaire) appelée count. Cette ligne de code déclare une variable nommée count qui est un conteneur associatif, associant des caractères (char) à des entiers (int).
 
