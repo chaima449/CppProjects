@@ -8,8 +8,6 @@ Le choix d'utiliser unordered_map (qui est une variante de std::map dans le lang
 
 ## for (auto x : s)
 
-est une boucle "for each" (boucle pour chaque élément) en C++ qui permet de parcourir les éléments d'une séquence ou d'une structure de données, telle qu'un conteneur ou un tableau, de manière itérative. Cette boucle est souvent utilisée lorsque vous souhaitez parcourir tous les éléments d'une collection (comme un tableau ou un conteneur) sans avoir besoin d'accéder aux indices individuels.
-
 auto : Le mot-clé auto est utilisé pour déduire automatiquement le type de données de chaque élément de la séquence s. Cela signifie que vous n'avez pas besoin de spécifier explicitement le type de x, il sera déduit automatiquement en fonction du type d'éléments dans s.
 
 x : C'est la variable qui prend la valeur de chaque élément de la séquence s à chaque itération de la boucle.
@@ -17,8 +15,6 @@ x : C'est la variable qui prend la valeur de chaque élément de la séquence s 
 s : C'est la séquence que vous souhaitez parcourir. Cela peut être un tableau, un conteneur (comme un vecteur, une liste, un ensemble, etc.), ou toute autre structure de données qui prend en charge l'itération
 
 ## if (x.second != 0)
-
-est une structure conditionnelle en C++ qui vérifie si la valeur associée à la variable x (supposant que x soit une paire clé-valeur d'une structure de données, comme un std::unordered_map ou un std::map) est différente de zéro. Plus précisément :
 
 x : Il s'agit généralement d'une paire clé-valeur extraite d'une structure de données associative (comme une std::unordered_map ou une std::map). La première partie de la paire (x.first) est généralement la clé, et la deuxième partie (x.second) est la valeur associée.
 
