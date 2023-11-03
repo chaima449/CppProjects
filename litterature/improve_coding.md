@@ -28,3 +28,9 @@ le code ascii d'un caractère.
 
 ## reverse(s_copy.begin(), s_copy.end());
 inverser une chaine de caracctère.
+
+## if(!isalnum(c))
+vérifie si c est un caractère alphanumérique
+
+## tolower(c)
+convertit l'élément c en miniscule
