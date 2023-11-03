@@ -20,4 +20,11 @@ x : Il s'agit généralement d'une paire clé-valeur extraite d'une structure de
 
 x.second : Cela fait référence à la deuxième partie de la paire x, c'est-à-dire la valeur associée à la clé.
 
+## transform(s.begin(), s.end(), s.begin(), ::tolower);
+transformer une chaine de caractère du majiscule au miniscule.
 
+## int asciiCode = static_cast<int>(x);
+le code ascii d'un caractère.
+
+## reverse(s_copy.begin(), s_copy.end());
+inverser une chaine de caracctère.
